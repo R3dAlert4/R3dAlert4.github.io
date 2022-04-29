@@ -1,0 +1,38 @@
+body {
+    /*background: rgb(247,101,184);*/
+    height: 1000px;
+    background-color:rgb(247,101,184); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom , rgb(247,101,184) , rgb(249,141,201));
+}
+  
+p {
+    font-size: 23px;
+    color: rgb(75, 139, 190);
+    text-align: center;
+    font-family: monospace;
+
+}
+  
+h1 {
+    font-size: 50px;
+    color: rgb(75, 139, 190);
+    text-align: center;
+    font-family: monospace;
+}
+
+a{
+    color: rgb(75, 139, 190);
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    height: 25%
+}
+
+h3{
+    text-align: center;
+}
