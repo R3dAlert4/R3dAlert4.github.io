@@ -1,8 +1,8 @@
 body {
     /*background: rgb(247,101,184);*/
     height: 1000px;
-    background-color:rgb(247,101,184); /* For browsers that do not support gradients */
-    background-image: linear-gradient(to bottom , rgb(247,101,184) , rgb(249,141,201));
+    background-color:rgb(84, 0, 76); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom , rgb(84, 0, 76) , rgb(115, 5, 104));
 }
   
 p {
