@@ -33,6 +33,11 @@ a{
     height: 25%
 }
 
+.numcenter{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h3{
     text-align: center;
 }
