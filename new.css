@@ -2,7 +2,7 @@ body {
     /*background: rgb(247,101,184);*/
     height: 1000px;
     background-color:rgb(84, 0, 76); /* For browsers that do not support gradients */
-    background-image: linear-gradient(to bottom , rgb(84, 0, 76) , rgb(115, 5, 104));
+    background-image: linear-gradient(to bottom , rgb(84, 0, 76) , rgb(136, 58, 138));
 }
   
 p {
