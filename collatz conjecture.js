@@ -24,8 +24,11 @@ function calculate(){
             } else {
                 n = n * 3 + 1; 
             }
-            if (n === 4){
-                fCounter += 1;
+            //if (n === 4){
+            //    fCounter += 1;
+            //}
+            if (n === 1){
+                fCounter += 2;
             }
             i += 1;
             console.log(n);
