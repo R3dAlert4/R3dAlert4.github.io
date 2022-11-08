@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div style = "width: 100%; height: 60px; margin-top: 240px;">
+            <h1 id = "output" style = "text-align: center;"> SEND MESSAGE TO THE WORLD</h1>
+            <input id = "input" placeholder = "Hello, World!" style = "margin-left: 540px; width: 12.5%;"/>
+            <button onclick = "save();"> Send </button>
+            <button onclick = "view();"> View </button>
+        </div>
+
+        <script>
+            function save(){
+                var new_data = ' ' + document.getElementById('input').value; // it get data
+                if(localStorage.getItem('data') == null) // if nothing add something
+                localStorage.setItem('data', '[ ]')
+            
+
+                var old_data = JSON.parse(localStorage.getItem('data')); // read the data you noob
+                old_data.push(new_data);
+
+                localStorage.setItem('data', JSON.stringify(old_data));
+            }
+            function view(){
+                if(localStorage.getItem('data') != null){
+                    document.getElementById('output').innerHTML = JSON.parse(localStorage.getItem('data'));
+                }
+            }
+        </script>
+
+    </body>
+</html>
